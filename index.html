@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://kit.fontawesome.com/a964bd3373.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>RP Developer</title>
+</head>
+
+<body>
+    <!--  SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenidoHeader">
+                    <h1>/RP</h1>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobreMi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- ICONOS DEL MENU RESPONSIVE -->
+                    <div id="iconNav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- ICONOS DE redes sociales -->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/rodrigo-prokopowicz-995332199/"  target="__blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/RodrigoProko"  target="__blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Rodrigo Prokopowicz</span>, Desarrollador</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus exercitationem
+                    quam in ducimus harum blanditiis cupiditate a consequatur et nobis enim fugiat aspernatur possimus,
+                    tempore distinctio! Voluptas vero et hic.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- wave -->
+    <div class="wave"></div>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobreMi">
+        <div class="contenedorFoto">
+            <img src="perfil.jpeg" alt="">
+        </div>
+        <div class="sobreMi">
+            <p class="tituloSeccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Rodrigo Prokopowicz</span></h2>
+            <h3>Desarrollador</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nesciunt! Facilis harum ab natus
+                necessitatibus ipsa! Vitae tempore aut, unde quisquam iure error, blanditiis ipsam laborum aspernatur ut
+                deserunt a.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo optio possimus porro</p>
+            <a href="Rodrigo Prokopowicz.pdf" target="__blank">Ver CV</a>
+        </div>
+    </section>
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="tituloSeccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="serviciosTag"> 
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum maiores minima nam
+                    mollitia a? Obcaecati quasi iure ullam quis recusandae voluptates commodi. Fuga veniam eos, maxime
+                    reprehenderit delectus eius.</p>
+            </div>
+            <div class="servicio">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="serviciosTag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum maiores minima nam
+                    mollitia a? Obcaecati quasi iure ullam quis recusandae voluptates commodi. Fuga veniam eos, maxime
+                    reprehenderit delectus eius.</p>
+            </div>
+            <div class="servicio">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="serviciosTag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum maiores minima nam
+                    mollitia a? Obcaecati quasi iure ullam quis recusandae voluptates commodi. Fuga veniam eos, maxime
+                    reprehenderit delectus eius.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="serviciosTag"> 
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum maiores minima nam
+                    mollitia a? Obcaecati quasi iure ullam quis recusandae voluptates commodi. Fuga veniam eos, maxime
+                    reprehenderit delectus eius.</p>
+            </div>
+            <div class="servicio">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="serviciosTag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum maiores minima nam
+                    mollitia a? Obcaecati quasi iure ullam quis recusandae voluptates commodi. Fuga veniam eos, maxime
+                    reprehenderit delectus eius.</p>
+            </div>
+            <div class="servicio">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="serviciosTag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum maiores minima nam
+                    mollitia a? Obcaecati quasi iure ullam quis recusandae voluptates commodi. Fuga veniam eos, maxime
+                    reprehenderit delectus eius.</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedorSkills" id="skills">
+        <h3 class="tituloSeccion">HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barraProgreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barraProgreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barraProgreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>React</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="react" class="barraProgreso4"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Swift</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="sw" class="barraProgreso5"></div>
+            </div>
+            
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Fornite</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="fn" class="barraProgreso6"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Fachero</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="fh" class="barraProgreso7"></div>
+            </div>
+        </div>
+    </div>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="tituloSeccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj3.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj3.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proj3.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="tituloSeccion">Contactame</h3>
+        <div class="contenedorForm">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre" class="inputMitad">
+                    <input type="text" placeholder="Dirección de Email" class="inputMitad"> 
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="inputFull">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ..." class="inputFull"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btnEnviar">
+            </form>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/rodrigo-prokopowicz-995332199/"  target="__blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/RodrigoProko"  target="__blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
